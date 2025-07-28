@@ -50,6 +50,18 @@ REF_INIT_DIR_PATH="${REF_BASE_DIR_PATH}/../../../ext"
 
 sys_pacstall_install_repository_add () {
 
+	sys_pacstall_install_repository_add_deb_coffee
+
+	sys_pacstall_install_repository_add_deb_coffee_maccity
+
+	sys_pacstall_install_repository_add_deb_coffee_wincity
+
+
+	return 0
+}
+
+sys_pacstall_install_repository_add_deb_coffee () {
+
 
 	##
 	## ## Link
@@ -62,6 +74,44 @@ sys_pacstall_install_repository_add () {
 	util_error_echo pacstall -QPA "https://raw.githubusercontent.com/samwhelp/deb-coffee/main"
 	util_error_echo
 	pacstall -QPA "https://raw.githubusercontent.com/samwhelp/deb-coffee/main"
+
+
+	return 0
+}
+
+sys_pacstall_install_repository_add_deb_coffee_maccity () {
+
+
+	##
+	## ## Link
+	##
+	## * https://github.com/samwhelp/deb-coffee-maccity
+	##
+
+
+	util_error_echo
+	util_error_echo pacstall -QPA "https://raw.githubusercontent.com/samwhelp/deb-coffee-maccity/main"
+	util_error_echo
+	pacstall -QPA "https://raw.githubusercontent.com/samwhelp/deb-coffee-maccity/main"
+
+
+	return 0
+}
+
+sys_pacstall_install_repository_add_deb_coffee_wincity () {
+
+
+	##
+	## ## Link
+	##
+	## * https://github.com/samwhelp/deb-coffee-wincity
+	##
+
+
+	util_error_echo
+	util_error_echo pacstall -QPA "https://raw.githubusercontent.com/samwhelp/deb-coffee-wincity/main"
+	util_error_echo
+	pacstall -QPA "https://raw.githubusercontent.com/samwhelp/deb-coffee-wincity/main"
 
 
 	return 0
