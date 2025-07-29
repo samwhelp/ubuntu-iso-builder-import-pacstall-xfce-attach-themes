@@ -141,6 +141,7 @@ local run_cmd=$(cat << __EOF__
 		bean-appearance-colloid-gtk-theme
 		bean-appearance-layan-gtk-theme
 		bean-appearance-qogir-gtk-theme
+		bean-appearance-lavanda-gtk-theme
 
 __EOF__
 )
