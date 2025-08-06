@@ -135,6 +135,8 @@ local run_cmd=$(cat << __EOF__
 		bean-appearance-vimix-gtk-theme
 		bean-appearance-vimix-kde-theme
 
+		bean-appearance-greystone-icon-theme
+
 		bean-appearance-orchis-gtk-theme
 		bean-appearance-graphite-gtk-theme
 		bean-appearance-fluent-gtk-theme
