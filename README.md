@@ -9,8 +9,8 @@
 
 > [ubuntu-iso-builder-import-pacstall-xfce-attach-themes](https://samwhelp.github.io/ubuntu-iso-builder-import-pacstall-xfce-attach-themes/)
 
-| Link |
-| ---- |
+| Project |
+| ------- |
 | [ubuntu-iso-builder-template](https://github.com/samwhelp/ubuntu-iso-builder-template) |
 | `+` |
 | [ubuntu-iso-builder-import-pacstall-xfce-attach-themes](https://github.com/samwhelp/ubuntu-iso-builder-import-pacstall-xfce-attach-themes) |
